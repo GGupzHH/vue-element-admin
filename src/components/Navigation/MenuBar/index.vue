@@ -18,7 +18,6 @@
         class="menubar-menu-list"
         :collapse="isCollapse"
         :collapse-transition="false"
-        :active-text-color="getActiveTextColor"
         @select="handleMenuSelect"
       >
         <NavigationMenuBarItem
